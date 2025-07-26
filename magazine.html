@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magazine by CSS Grid</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="magazine.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <header class="mb-4">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Magazine</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Top Grid Section -->
+    <section class="grid-container1">
+      <article class="item item1">
+        <div class="heading">
+          <p>15 April 2025</p>
+          <a href="#"><h2>The Lady: The decline and fall of the bible of female gentility</h2></a>
+        </div>
+      </article>
+      <article class="item item2">
+        <div class="heading">
+          <p>21 August 2024</p>
+          <a href="#"><h2>ChatGPT firm OpenAI strikes deal with Vogue owner</h2></a>
+        </div>
+      </article>
+      <article class="item item3">
+        <div class="heading">
+          <p>27 June 2025</p>
+          <a href="#"><h2>Anna Wintour's legacy and who might replace her as Vogue editor</h2></a>
+        </div>
+      </article>
+      <article class="item item4">
+        <div class="heading">
+          <p>16 August 2024</p>
+          <a href="#"><h2>Respected gaming magazine praised after sudden closure</h2></a>
+        </div>
+      </article>
+    </section>
+
+    <!-- Recent Posts Grid -->
+    <section class="container2">
+      <div class="item container2-heading">
+        <h3>Recent Posts</h3>
+      </div>
+
+      <article class="item item5">
+        <div class="overlay">
+          <p>16 August 2024</p>
+          <h2>'We were sure we wouldn't bump into each other at uni'</h2>
+        </div>
+      </article>
+
+      <article class="item item6">
+        <img src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/16082/production/_129424209_onlineelliegoldstein.jpg.webp" alt="Ellie Goldstein">
+        <p>21 April 2023</p>
+        <h4>Edward Enninful says Vogue disability issue is 'one of my proudest moments'</h4>
+      </article>
+
+      <article class="item item7">
+        <img src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/101C9/production/_126739956_b30f9afd-562d-4df5-81e5-8e9cb4fea953.jpg.webp" alt="Timothée Chalamet">
+        <p>16 September 2022</p>
+        <h4>Timothée Chalamet is first male British Vogue cover star</h4>
+      </article>
+
+      <article class="item item8">
+        <img src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/b5ae/live/f0b744d0-b3c0-11ef-b3ac-6579871b1cdf.jpg.webp" alt="Lad Culture">
+        <p>8 December 2024</p>
+        <h4>The magazine that defined lad culture 30 years ago</h4>
+      </article>
+
+      <article class="item item9">
+        <img src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/1645B/production/_132872219_3f173e83-d9c6-403d-8718-a52936a84bc0.jpg.webp" alt="Chioma Nnadi">
+        <p>15 March 2024</p>
+        <h4>Chioma Nnadi: British Vogue's new editor says she has big shoes to fill</h4>
+      </article>
+
+      <article class="item item10">
+        <img src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/b7cf/live/e90ada40-67a6-11f0-af20-030418be2ca5.jpg.webp" alt="Trump's Mother">
+        <p>8 December 2024</p>
+        <h4>Donald Trump's mother: From a Scottish island to New York's elite</h4>
+      </article>
+
+      <article class="item item11">
+        <img src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/6e40/live/e13fbec0-6940-11f0-89ea-4d6f9851f623.png.webp" alt="Shona Stevens Case">
+        <p>15 March 2024</p>
+        <h4>Man charged over Shona Stevens murder in 1994</h4>
+      </article>
+    </section>
+  </main>
+
+  <footer class="text-center mt-5 py-4 bg-light">
+    <p>&copy; 2025 Magazine. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
